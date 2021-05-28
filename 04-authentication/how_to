@@ -1,0 +1,3 @@
+#!/bin/bash
+
+curl --user mark:cat localhost:5000/login

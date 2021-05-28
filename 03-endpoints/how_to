@@ -1,1 +1,31 @@
-curl localhost:5000 -H "key1:value1" -H "key2:value2" -H "key3:value3"
+#!/bin/bash
+
+echo "curl localhost:5000/addAnimal -H \"animal:snake\""
+curl localhost:5000/addAnimal -H "animal:snake"
+echo
+echo
+
+echo "curl localhost:5000/addAnimal -H \"animal:bat\""
+curl localhost:5000/addAnimal -H "animal:bat"
+echo
+echo
+
+echo "localhost:5000/animals (all animals)"
+curl localhost:5000/animals
+echo
+echo
+
+echo "localhost:5000/animal (1 random animal)"
+curl localhost:5000/animal
+echo
+echo
+
+echo "localhost:5000/animal (1 random animal)"
+curl localhost:5000/animal
+echo
+echo
+
+echo "localhost:5000/animal (1 random animal)"
+curl localhost:5000/animal
+echo
+echo
